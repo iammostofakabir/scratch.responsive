@@ -1,0 +1,65 @@
+/* google font start*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* google font end */
+
+
+/* common css start */
+
+:root{
+    font-size: 16px;
+    font-family: poppins;
+}
+body{
+    margin: 0; 
+}
+
+/* common css end */
+
+
+/* header css start */
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+    padding: 10rem;
+}
+.header-text{
+    font-size: 2rem;
+    color: white;
+}
+.header-text h1{
+    margin: 0;
+}
+.button{
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    color:white;
+    border-radius: 5px;
+    display:inline-block;
+    margin-top: 1.6rem;
+}
+.fas.fa-arrow-right{
+    padding-left: 0.5rem;
+}
+
+/* header css end */
+
+
+/* players css start */
+.players-main{
+    display: flex;
+    justify-content: center;
+}
+.players{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1050px;
+    place-items: center;
+}
+
+/* players css end */
