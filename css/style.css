@@ -9,7 +9,6 @@
 
 :root{
     font-size: 16px;
-    
 }
 body{
     margin: 0; 
@@ -72,9 +71,42 @@ body{
     margin: 15px;
 }
 .description{
-    font-family: 'poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-feature-settings: 'liga' off;
+    font-family: 'serif';
 }
+
 /* players css end */
+
+
+/* extra css start */
+
+.extra-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button-extra{
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    color:white;
+    border-radius: 5px;
+    display:inline-block;
+}
+.box input{
+    font-size: 2rem;
+}
+
+/* extra css end */
+
+
+/* footer css start */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer css end */
