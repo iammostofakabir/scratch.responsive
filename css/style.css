@@ -9,10 +9,11 @@
 
 :root{
     font-size: 16px;
-    font-family: poppins;
+    
 }
 body{
     margin: 0; 
+    font-family: 'Poppins', sans-serif;
 }
 
 /* common css end */
@@ -26,6 +27,10 @@ body{
     align-items: center;
     background-color: blue;
     padding: 10rem;
+}
+.header:hover img{
+    transform: scale(1.2);
+    transition: transform 1s;
 }
 .header-text{
     font-size: 2rem;
@@ -51,6 +56,7 @@ body{
 
 
 /* players css start */
+
 .players-main{
     display: flex;
     justify-content: center;
@@ -59,7 +65,16 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 1050px;
-    place-items: center;
 }
-
+.player{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    margin: 15px;
+}
+.description{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-feature-settings: 'liga' off;
+}
 /* players css end */
